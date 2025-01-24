@@ -1,0 +1,9 @@
+.main-section {
+  display: flex;
+  width: 92%;
+  background-color: inherit;
+  margin: 0 auto;
+  //border: 1px solid black;
+  justify-content: space-evenly;
+  padding-top: 85px;
+}

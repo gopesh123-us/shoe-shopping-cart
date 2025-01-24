@@ -6,6 +6,7 @@ import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { IMAGES } from '../../../data';
 import { HeaderComponent } from '../../core/components/header/header.component';
+import { MainSectionComponent } from '../../core/components/main-section/main-section.component';
 
 @Component({
   selector: 'app-home',
@@ -16,6 +17,7 @@ import { HeaderComponent } from '../../core/components/header/header.component';
     FontAwesomeModule,
     CommonModule,
     HeaderComponent,
+    MainSectionComponent,
   ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css',

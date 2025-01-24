@@ -1,6 +1,8 @@
-.container {
-  background-color: hsl(0, 74%, 74%);
+.home-container {
+  //background-color: hsl(0, 74%, 74%);
+  background-color: #fff;
   width: 80%;
   margin: 0 auto;
   overflow: hidden;
+  min-height: 100vh;
 }

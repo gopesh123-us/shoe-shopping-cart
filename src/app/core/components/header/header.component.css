@@ -1,10 +1,10 @@
 .header {
+  width: 100%;
+  margin: 0 auto;
   padding-left: 0px;
   padding-right: 0px;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  width: 80%;
-  margin: 0 auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
   border-bottom: 2px solid #81868952;
   display: flex;
   justify-content: space-between;
@@ -19,7 +19,7 @@
   filter: invert(53%) sepia(5%) saturate(341%) hue-rotate(159deg)
     brightness(98%) contrast(88%);
 }
-.menu-items {
+.menu-items-div {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -30,6 +30,23 @@
   font-size: 1rem;
   color: #818689fb;
   cursor: pointer;
+}
+.menu-item {
+  position: relative;
+}
+.menu-item:after {
+  content: "";
+  position: absolute;
+  height: 5px;
+  left: 0;
+  bottom: -40px;
+  background-color: hsl(26, 100%, 55%);
+  width: 0;
+  border-radius: 5px;
+  transition: 0.2s;
+}
+.menu-item:hover:after {
+  width: 100%;
 }
 
 .logo-menu-items-group {
